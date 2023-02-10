@@ -1,4 +1,7 @@
-[596] 10 Feb 18:31:47.868 # Warning: no config file specified, using the default config. In order to specify a config file use C:\Users\RAVI\Downloads\Redis-x64-3.2.100\redis-server.exe /path/to/redis.conf
+[596] 10 Feb 18:31:47.868 # Warning: 
+no config file specified, using the default 
+config. In order to specify a config file use 
+C:\Users\RAVI\Downloads\Redis-x64-3.2.100\redis-server.exe /path/to/redis.conf
                 _._
            _.-``__ ''-._
       _.-``    `.  `_.  ''-._           Redis 3.2.100 (00000000/0) 64 bit
@@ -19,5 +22,6 @@
 
 [596] 10 Feb 18:31:47.884 # Server started, Redis version 3.2.100
 [596] 10 Feb 18:31:47.884 * DB loaded from disk: 0.006 seconds
-[596] 10 Feb 18:31:47.899 * The server is now ready to accept connections on port 6379
+[596] 10 Feb 18:31:47.899 * The server is now ready to accept 
+connections on port 6379
 [596] 10 Feb 18:46:24.154 * DB saved on disk
