@@ -44,7 +44,7 @@ Attributes are
        Id-23 45 13
        Dept-it cse bme
 
-     The data is stored a set with entity name as 
+The data is stored a set with entity name as 
 set names and attribute name as key followed by 
 values.Each Set has over four attributes with
 values associated with it.
