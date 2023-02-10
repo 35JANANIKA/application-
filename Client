@@ -1,1 +1,70 @@
 
+127.0.0.1:6379> ping
+PONG
+127.0.0.1:6379> SADD BOOKDETAIL bookid 23 45 78
+(integer) 4
+127.0.0.1:6379> SADD BOOKDETAIL cost 456 700 345
+(integer) 4
+127.0.0.1:6379> SADD BOOKDETAIL author william john charles
+(integer) 4
+127.0.0.1:6379> SADD BOOKDIVISION dept it mde ece
+(integer) 4
+127.0.0.1:6379> SADD BOOKDIVISION id 234 56 89
+(integer) 4
+127.0.0.1:6379> SADD  bookdivision floorno 1 5 3
+(integer) 4
+127.0.0.1:6379> SADD STUDENTDETAIL name jan madu deva
+(integer) 4
+127.0.0.1:6379> SADD STUDENTDETAIL ROLLNO 35 59 13
+(integer) 4
+127.0.0.1:6379> SADD STUDENTDETAIL dept it ece cse
+(integer) 4
+127.0.0.1:6379> SADD STAFFDETAIL id 23 45 13
+(integer) 4
+127.0.0.1:6379> SADD STUDENTDETAIL dept it cse bme
+(integer) 1
+127.0.0.1:6379> SMEMBERS BOOKDETAIL
+ 1) "345"
+ 2) "700"
+ 3) "cost"
+ 4) "78"
+ 5) "bookid"
+ 6) "23"
+ 7) "charles"
+ 8) "45"
+ 9) "john"
+10) "author"
+11) "william"
+12) "456"
+127.0.0.1:6379> SMEMBERS BOOKDIVISION
+1) "56"
+2) "mde"
+3) "ece"
+4) "id"
+5) "89"
+6) "dept"
+7) "it"
+8) "234"
+127.0.0.1:6379> SMEMBERS STUDENTDETAIL
+ 1) "cse"
+ 2) "madu"
+ 3) "name"
+ 4) "ece"
+ 5) "59"
+ 6) "35"
+ 7) "ROLLNO"
+ 8) "deva"
+ 9) "dept"
+10) "bme"
+11) "13"
+12) "it"
+13) "jan"
+127.0.0.1:6379> SPOP STAFFDETAIL
+"id"
+127.0.0.1:6379> SMEMBERS STAFFDETAIL
+1) "45"
+2) "13"
+3) "23"
+127.0.0.1:6379> SAVE
+OK
+127.0.0.1:6379>
